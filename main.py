@@ -3,7 +3,7 @@ from tkinter import simpledialog, messagebox, scrolledtext
 import json
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyCR9QU53CAJTlMkfN2pnwi1PqmS-mK6vY8")
+genai.configure(api_key="API-KEY")
 
 # Load and save functions
 def load_dictionary(filename):
